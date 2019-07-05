@@ -6,6 +6,34 @@
 2. Explain what a good whiteboarding process looks like
 3. Solve whiteboarding interview questions
 
+## [Standards](https://joinpursuit.github.io/Pursuit-Core-Standards/engineering_foundations.html) Exercised
+<details>
+  <summary>
+    EF.1.a 
+  </summary>
+
+  Know how to find a plausible answer independently: Identify essential requirements that define the answer that needs to be solved, based on users, stakeholders, and constraints, single out missing information and determine the best way to find it, whether through existing resources, an online search, available libraries, etc., sort through varied information to determine what’s useful and reliable, and use those resources to learn something new, figure out a problem, and/ or locate additional helpful resources.
+
+</details>
+
+<details>
+  <summary>
+    EF.1.b 
+  </summary>
+
+    Deal effectively with dead ends, frustration: Demonstrate ability to overcome frustration effectively. When one approach doesn’t work, rather than becoming despondent or giving up, able to take a step back, regroup, and try a different way.
+
+</details>
+
+<details>
+<summary>
+  EF.1.c 
+</summary>
+
+  Know when, and how, to ask for help from peers/instructor once independent resources are exhausted.
+
+</details>
+
 ## 1. What is whiteboarding?
 
 The interview process typically includes the following steps:
