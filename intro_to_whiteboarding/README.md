@@ -21,14 +21,14 @@
     EF.1.b 
   </summary>
 
-    Deal effectively with dead ends, frustration: Demonstrate ability to overcome frustration effectively. When one approach doesn’t work, rather than becoming despondent or giving up, able to take a step back, regroup, and try a different way.
+  Deal effectively with dead ends, frustration: Demonstrate ability to overcome frustration effectively. When one approach doesn’t work, rather than becoming despondent or giving up, able to take a step back, regroup, and try a different way.
 
 </details>
 
 <details>
-<summary>
-  EF.1.c 
-</summary>
+  <summary>
+    EF.1.c 
+  </summary>
 
   Know when, and how, to ask for help from peers/instructor once independent resources are exhausted.
 
