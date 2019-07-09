@@ -38,6 +38,21 @@ There is a growing divide between companies that use the traditional whiteboardi
 4. Code your solution
 5. Test and refactor your code
 
-Live-coding example:
+### Live-coding example:
 
-Prompt: Merge two sorted arrays into a single sorted array.
+<b>Prompt</b>: Merge two sorted arrays into a single sorted array.
+
+### Fellow volunteer whiteboarding question
+
+<b>Prompt</b>: Find the second largest element in an array of numbers.
+
+### Pair whiteboarding questions
+
+<b>Set One</b>
+
+1. Write a program that logs the numbers from 1 to 100. But for multiples of three log "Fizz" instead of that number, and for the multiples of five log "Buzz" instead of that number. For numbers which are multiples of both three and five log "FizzBuzz" instead.
+2. Write a program that logs out a given string with all of the vowels removed.
+
+<b>Set Two</b>
+3. Write a program that moves all of the 0s in a given array to the end.  The relative order of all other elements should remain the same.
+4. Write a program that logs the largest product of two numbers in a given array.
