@@ -54,5 +54,6 @@ There is a growing divide between companies that use the traditional whiteboardi
 2. Write a program that logs out a given string with all of the vowels removed.
 
 <b>Set Two</b>
+
 3. Write a program that moves all of the 0s in a given array to the end.  The relative order of all other elements should remain the same.
 4. Write a program that logs the largest product of two numbers in a given array.
