@@ -4,7 +4,7 @@
 
 How does logic problems and brainteasers relate to the job search and interview.
 
-1. Review [whiteboarding process](../whiteboarding/README.md)  
+1. Review [whiteboarding process](https://github.com/joinpursuit/DSA-Curriculum/tree/master/intro_to_whiteboarding)  
 1. Thought Process and approach
 1. Being able to take a problem, breaking it down and coming up with an approach to a solution
 
