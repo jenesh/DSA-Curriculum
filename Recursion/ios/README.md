@@ -160,7 +160,7 @@ func factorial(n: Int) -> Int {
 
 ```swift
 func recursiveFactorial(n: Int) -> Int {
-    guard n > 1 else {return 1} //Base Case
+    guard n > 2 else {return 1} //Base Case
     return n * recursiveFactorial(n: n - 1) //Recursive Call
 }
 ```
