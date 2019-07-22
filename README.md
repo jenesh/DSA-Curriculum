@@ -5,7 +5,7 @@
 | # | Topic | Lesson |
 |---| ---   | ---    |
 | 1 | Intro to Whiteboarding | [Web/iOS](https://github.com/joinpursuit/DSA-Curriculum/tree/master/intro_to_whiteboarding)
-| 2 | Big-O Notation | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Big-O%20Notation/lesson-js.md) / [iOS](https://github.com/mmosayed/DSA-Curriculum/blob/master/Big-O%20Notation/lesson-swift.md)
+| 2 | Big-O Notation | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/big_o_notation/web) / [iOS](https://github.com/mmosayed/DSA-Curriculum/blob/master/Big-O%20Notation/lesson-swift.md)
 | 2 | Recursion | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Recursion/lesson-js.md) / [iOS](https://github.com/mmosayed/DSA-Curriculum/blob/master/Recursion/lesson-swift.md)
 | 3 | Binary Search | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Binary%20Search/lesson-js.md) / iOS
 | 4 | Bubble Sort: Intro to Sorting* | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Sorting%20Algorithms/lesson-bubble-js.md) / iOS
