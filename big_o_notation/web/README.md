@@ -313,7 +313,8 @@ function bestAverageAndWorstFunc(arr) {
     for (elem of arr) {
         console.log(elem)
     }
-}```
+}
+```
 
 <details>
 	<summary>Best Case Runtime</summary>
