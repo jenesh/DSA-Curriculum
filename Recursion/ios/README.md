@@ -145,6 +145,8 @@ Let's make an iterative solution first, then let's compare it to a recursive sol
 
 <details>
 <summary> Iterative factorial </summary>
+	
+```swift
 func factorial(n: Int) -> Int {
     var product = 1
     for currentNum in 1...n {
@@ -152,6 +154,7 @@ func factorial(n: Int) -> Int {
     }
     return product
 }
+```
 </details>
 
 
