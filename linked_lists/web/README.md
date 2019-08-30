@@ -22,7 +22,7 @@ Arrays in Javascript is your swiss army knife. It can pretty much do anything.
 
 Arrays in most low level languages is a very primitive collection. In languages like C++ you need to provide a location in memory for every variable. Each time you want to store an item in memory, you ask the computer for some space, and it gives you an address where you can store your item.
 
-![Array in Memory](assets/array_mem.png)
+![Array in Memory](../assets/array_mem.png)
 
 So as you can see, you can't store any more data after you reach 3 elements. This isn't very versatile. We need to be able to *GROW* and *SHRINK* our collection. 
 
@@ -34,7 +34,7 @@ Now what if we wanted to add elements to our  list and we are not sure how many 
 
 This is where the 'Linked' in Linked Lists comes in. We can coordinate a sequential list by *POINTING* from one space in memory to the next. 
 
-![Lists in Memory](assets/linked-mem.png)
+![Lists in Memory](../assets/linked-mem.png)
 
 This chain of memory is the foundation of the simplest abstract data structure. 
 
@@ -42,7 +42,7 @@ This chain of memory is the foundation of the simplest abstract data structure.
 12 -> 1 -> 3 -> null
 ```
 
-![Linked List](assets/linked_list_simple.png)
+![Linked List](../assets/linked_list_simple.png)
 
 ### Nodes
 
