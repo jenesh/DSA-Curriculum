@@ -67,7 +67,7 @@ That friend is your Hash Table.
 
 How is it a Hash Table gives back answers in O(1) time? It's because of the Hash Function. A hash function is a function where you put in a key value and you get back a number.
 
-![Hash Function](assets/hash-function-pic.bmp)
+![Hash Function](../assets/hash-function-pic.bmp)
 
 This function essentially runs in O(1) time complexity. So whenever you pass in a piece of data you always get back a number representing that data.
 
@@ -139,7 +139,7 @@ There are several ways to solve for Collision Cases but for the sake of this les
 
 ### Collision: Using Chaining
 
-![Chaining Nodes](assets/chain.gif)
+![Chaining Nodes](../assets/chain.gif)
 
 There will be cases when your Hash function returns the same value for multiple different cases. We can solve this problem using Chaining. 
 
