@@ -59,7 +59,7 @@ And the property
 </details>
 
 <details>
-	<summarys>Insert an element (by enqueueing)</summary>
+	<summary>Insert an element (by enqueueing)</summary>
 	O(1)
 </details>
 
@@ -72,7 +72,7 @@ And the property
 
 1. Managing calls at a help desk ("Your call will be answered in the order it was received")
 2. Order list at a fast food restaurant
-3. IT reapair tickets
+3. IT repair tickets
 
 
 ## Implementation:
@@ -191,7 +191,7 @@ struct Queue<T: Equatable>: CustomStringConvertible {
 }
 ```
 
-**Excersie: Write a function that prints out all elements in a Queue**   
+**Exercise: Write a function that prints out all elements in a Queue**   
 
 ## Implementation - Two Stacks
 
@@ -259,6 +259,6 @@ struct Queue<T: Equatable> {
 }
 ```
 
-# Exercises
+# Lab
 
-[Link](./lab.md) to exercises for pair whiteboarding.
+https://github.com/joinpursuit/Pursuit-Core-iOS-Queue-Lab/
