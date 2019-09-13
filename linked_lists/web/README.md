@@ -243,12 +243,12 @@ nodeAt(index) {
   let counter = 0;
   let pointer = this.head;
 
-  while(counter < index) {
+  while(counter < index && pointer /* returns null if index > counter */) {
     pointer = pointer.next;
     counter++;
   }
 
-  return pointer;
+  return pointer.value;
 }
 ```
 
@@ -273,7 +273,7 @@ pop() {
     this.head = null;
     this.tail = null;
     this.length--;
-    return deletedTail;
+    return deletedTail.value;
   }
 
   // If there are many nodes in linked list...
@@ -291,7 +291,7 @@ pop() {
   this.tail = currentNode;
 
   this.length--;
-  return deletedTail;
+  return deletedTail.value;
 }
 ```
 
