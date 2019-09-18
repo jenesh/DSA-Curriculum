@@ -78,7 +78,7 @@ How is it a Hash Table gives back answers in O(1) time? It's because of the Hash
 
 This function essentially runs in O(1) time complexity. So whenever you pass in a piece of data you always get back a number representing that data.
 
-> Let's get rid of `strawberry` & `blueberry` for simplicity's sake. Imagine we are only dealing with 3 elements from now on.
+> Let's get rid of `"strawberry"` & `"blueberry"` for simplicity's sake. Imagine we are only dealing with 3 elements from now on.
 
 Example:
 ```
