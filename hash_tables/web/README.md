@@ -24,13 +24,13 @@ Let's say you're a cashier and customers ask you what is the price of certain pr
 
 **Unordered Array**
 
-Imagine our products were stored in an unordered array.
+Imagine our products were stored in an unordered/unsorted array.
 
 ```javascript
 const products = [ { "orange": 1.25}, { "apple": 1.00}, { "banana": 1.00 } ]
 ```
 
-You would have to create a Linear Search algorithm which searches through this unsorted list and finds the product and finally returns you the value.
+You would have to create a Linear Search algorithm which searches through this unsorted list and finds the item and finally returns you the value.
 
 Our run time would be O(n).
 
