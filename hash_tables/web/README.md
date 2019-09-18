@@ -27,7 +27,7 @@ Let's say you're a cashier and customers ask you what is the price of certain pr
 Imagine our products were stored in an unordered/unsorted array.
 
 ```javascript
-const products = [ { "orange": 1.25}, { "apple": 1.00}, { "banana": 1.00 } ]
+const products = [ { "orange": 1.25}, { "apple": 1.00}, { "strawberry": 2.10 }, { "banana": 1.00 }, { "blueberry": 1.96 }]
 ```
 
 You would have to create a Linear Search algorithm which searches through this unsorted list and finds the item and finally returns you the value.
@@ -39,7 +39,7 @@ Our run time would be O(n).
 Now what if we ordered it?
 
 ```javascript
-const products = [ { "apple": 1.00}, { "banana": 1.00 }, { "orange": 1.25}  ]
+const products = [ { "apple": 1.00}, { "banana": 1.00 }, { "orange": 1.25}, { "blueberry": 1.96 }, { "strawberry": 2.10 }]
 ```
 
 We can apply Binary Search and reduce the runtime to O(log n). Which is a HUGE increase in performance. But we can actually do better.
@@ -57,6 +57,13 @@ orange
 
 banana
 => 1.00
+
+blueberry
+=> 1.96
+
+strawberry
+=> 2.10
+
 ```
 
 This friend would give you back a value for every key request that you ask. This runtime would actually be O(1).
@@ -66,6 +73,8 @@ That friend is your Hash Table.
 ## Hash Functions
 
 How is it a Hash Table gives back answers in O(1) time? It's because of the Hash Function. A hash function is a function where you put in a key value and you get back a number.
+
+> Let's get rid of `strawberry` & `blueberry` for simplicity's sake. Imagine we are only dealing with 3 elements from now on.
 
 ![Hash Function](../assets/hash-function-pic.bmp)
 
