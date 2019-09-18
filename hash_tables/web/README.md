@@ -74,11 +74,11 @@ That friend is your Hash Table.
 
 How is it a Hash Table gives back answers in O(1) time? It's because of the Hash Function. A hash function is a function where you put in a key value and you get back a number.
 
-> Let's get rid of `strawberry` & `blueberry` for simplicity's sake. Imagine we are only dealing with 3 elements from now on.
-
 ![Hash Function](../assets/hash-function-pic.bmp)
 
 This function essentially runs in O(1) time complexity. So whenever you pass in a piece of data you always get back a number representing that data.
+
+> Let's get rid of `strawberry` & `blueberry` for simplicity's sake. Imagine we are only dealing with 3 elements from now on.
 
 Example:
 ```
