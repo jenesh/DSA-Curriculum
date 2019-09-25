@@ -309,3 +309,14 @@ class HashTable {
 }
 ```
 
+## Exercises
+
+To this implementation of a `HashTable`
+
+1. Add a method `has(key)` that returns a boolean indicating whether an element with the specified key exists or not.
+2. Add a method `delete(key)` that removes and returns the element at the specified `key`.
+3. Add a method `keys()` returns an array that contains the keys for each element in the `HashTable` object. 
+4. Add a method `values()` returns an array that contains the values for each element in the `HashTable` object. 
+5. Add a method `clear()` that removes all elements from a `HashTable` object.
+6. Add a method `forEach(callback)` that executes a provided function once per each key/value pair in the `HashTable` object. The `callback` would receive the value of the given element as its argument. 
+
