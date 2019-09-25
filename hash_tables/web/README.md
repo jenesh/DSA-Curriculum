@@ -187,7 +187,7 @@ insert(key, value) {
   // Generate the bucket index using our Hash function
   var bucket = this.hash(key);
   // Create a new Node holding our key-value pair
-  var newNode = new HashNode(key, value);
+  var newNode = new Node(key, value);
   
   // 1st Case - No Nodes Exist in that Bucket
   if(!this.buckets[bucket]) {
@@ -262,7 +262,7 @@ class HashTable {
     // Generate the bucket index using our Hash function
     var bucket = this.hash(key);
     // Create a new Node holding our key-value pair
-    var newNode = new HashNode(key, value);
+    var newNode = new Node(key, value);
     
     // 1st Case - No Nodes Exist in that Bucket
     if(!this.buckets[bucket]) {
