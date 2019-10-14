@@ -67,19 +67,41 @@ That's why this is called an "insertion" sort, because you take a number from th
 ## Insertion Sort Implementation
 
 ```swift
-// [3, 1, -5, 10, 8] => [-5, 1, 3, 8, 10]
-func insertionSort(inputArray: inout [Int]) -> [Int] {
-  for i in 0..<inputArray.count { // iterate array (n) times
-    var j = i // for mutability since i is immuatable
-    while j > 0 && inputArray[j - 1] > inputArray[j] { // iterate back from i to 0 to perform swap as needed
-      inputArray.swapAt(j - 1, j)
-      j -= 1 // decrement to get to base case which is 0
+// O(n) space
+
+func insertionSorted<T>(arr: [T], by isSorted: (T, T) -> Bool) -> [T] {
+    var sortedArr = [T]()
+    for element in arr {
+        sortedArr = addElement(element, to: sortedArr, by: isSorted)
     }
-  }
-  return inputArray
+    return sortedArr
 }
-var input2 = [3, 1, -5, 10, 8]
-insertionSort(inputArray: &input2) // [-5, 1, 3, 8, 10]
+
+func addElement<T>(_ element: T, to sortedArr: [T], by isSorted: (T, T) -> Bool) -> [T] {
+    var sortedArr = sortedArr
+    for (index, sortedElement) in sortedArr.enumerated() {
+        if isSorted(element, sortedElement) {
+            sortedArr.insert(element, at: index)
+            return sortedArr
+        }
+    }
+    sortedArr.append(element)
+    return sortedArr
+}
+
+
+// O(1) space
+
+func insertionSort<T>(arr: inout [T], by isSorted: (T, T) -> Bool) -> [T] {
+    for indexOne in 1..<arr.count {
+        var indexTwo = indexOne
+        while indexTwo > 0 && isSorted(arr[indexTwo], arr[indexTwo - 1]) {
+            arr.swapAt(indexTwo - 1, indexTwo)
+            indexTwo -= 1
+        }
+    }
+    return arr
+}
 ```
 
 ## Resources:
