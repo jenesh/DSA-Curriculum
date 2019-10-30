@@ -119,9 +119,12 @@ func quickSort(arr: [Int]) -> [Int] {
 
 ## Exercises
 
-2. [Sort a Linked List](https://leetcode.com/problems/sort-list/description/)
-3. [Sort Colors](https://leetcode.com/problems/sort-colors/description/)
-4. [Quicksort 1 - Hackerrank](https://www.hackerrank.com/challenges/quicksort1/problem)
-5. [Quicksort 2 - Hackerrank](https://www.hackerrank.com/challenges/quicksort2/problem)
-6. [Quicksort 3 - Hackerrank](https://www.hackerrank.com/challenges/quicksort3/problem)
-7. [Codewars - swapped3-7](https://www.codewars.com/kata/sorting-on-planet-twisted-3-7)
+[lab](https://github.com/joinpursuit/Pursuit-Core-iOS-Quicksort-Lab)
+
+1. [Sort a Linked List](https://leetcode.com/problems/sort-list/description/)
+2. [Sort Colors](https://leetcode.com/problems/sort-colors/description/)
+3. [Quicksort 1 - Hackerrank](https://www.hackerrank.com/challenges/quicksort1/problem)
+4. [Quicksort 2 - Hackerrank](https://www.hackerrank.com/challenges/quicksort2/problem)
+5. [Quicksort 3 - Hackerrank](https://www.hackerrank.com/challenges/quicksort3/problem)
+6. [Codewars - swapped3-7](https://www.codewars.com/kata/sorting-on-planet-twisted-3-7)
+
