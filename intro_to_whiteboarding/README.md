@@ -69,22 +69,33 @@ There is a growing divide between companies that use the traditional whiteboardi
 
 [Whiteboarding Process Details](./whiteboarding_formula.md)
 
-### Live-coding example:
+## Practice & Demo
+### Instructor Demo example:
 
-<b>Prompt</b>: Merge two sorted arrays into a single sorted array.
+Instructor demonstrate how to go through the whiteboarding process for the following question:
+
+**Question:** Merge two sorted arrays into a single sorted array.
 
 ### Fellow volunteer whiteboarding question
 
-<b>Prompt</b>: Find the second largest element in an array of numbers.
+Volunteer Fellow comes up to the board to attempt to solve the problem with the whiteboarding process:
+
+**Question**: Find the second largest element in an array of numbers.
 
 ### Pair whiteboarding questions
+Fellows pair up and work on the following question following the whiteboarding process.
 
-<b>Set One</b>
+#### Set One
 
 1. Write a program that logs the numbers from 1 to 100. But for multiples of three log "Fizz" instead of that number, and for the multiples of five log "Buzz" instead of that number. For numbers which are multiples of both three and five log "FizzBuzz" instead.
 2. Write a program that logs out a given string with all of the vowels removed.
 
-<b>Set Two</b>
-
+#### Set Two
 3. Write a program that moves all of the 0s in a given array to the end.  The relative order of all other elements should remain the same.
 4. Write a program that logs the largest product of two numbers in a given array.
+
+## Resources
+* [Walking Through a Problem - CTCI](http://www.crackingthecodinginterview.com/uploads/6/5/2/8/6528028/cracking_the_coding_skills_-_v6.pdf) [MAP/FLOWCHART]
+* [What is Whiteboarding - Codecademy](https://www.youtube.com/watch?v=XizttkvVsXI) [VIDEO]
+* [Whiteboarding Process in Depth](./whiteboarding_formula.md)
+* [Bria's Formula to whiteboarding](https://twitter.com/bria_sullivan/status/1171852539551199232)
