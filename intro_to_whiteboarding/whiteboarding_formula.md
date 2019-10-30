@@ -46,6 +46,27 @@
    3. Talk through the performance of your solution, with emphasis on the performance of the operations on the data structures used
    4. Could changing the data structures you used improve the runtime complexity? Changing an Array for Hash table? Queue? etc.
 
+## Demon & Practice
+  * Instructor Demo: [canBalance](https://the-winter.github.io/codingjs/exercise.html?name=canBalance&title=Array-3)
+  * Fellows Practice in pairs: *Remember to follow the process.*
+    * **String Compression**: For each character in a string log the character and the count in a compressed format. 
+
+      ```js
+      stringCompression("aaabbcca") // => "a3b2c2a1"
+      ```
+    * **findDuplicates**: Write a function that takes an array and returns its duplicate values.
+
+      ```js
+      duplicates([2,2,1,4]) // => [2] 
+      duplicates([]) // => [] 
+      duplicates(["what", "are", 7, "doing"]) //=> []
+      ```
+    * **Transformable**: Given two strings, return whether the second can be transformed into the first by removing characters.
+
+      * Example: `"aabbaa"` can be transformed into `"aba"` by removing `"a"`, `"b"`, and `"a"`
+      * Clarifications: We can assume str2 always has greater or equal length than str1
+      * Hint: What if str1 is an empty string? Start with the case where str1 === str2 and then build up
+      
 ## Resources
 * [Walking Through a Problem - CTCI](http://www.crackingthecodinginterview.com/uploads/6/5/2/8/6528028/cracking_the_coding_skills_-_v6.pdf) [MAP/FLOWCHART]
 * [What is Whiteboarding - Codecademy](https://www.youtube.com/watch?v=XizttkvVsXI) [VIDEO]
