@@ -60,11 +60,14 @@ There is a growing divide between companies that use the traditional whiteboardi
 
 ## 3. Whiteboarding process
 
-1. Ask clarifying questions
-2. Write inputs/outputs
-3. Diagram and explain a solution to the problem
-4. Code your solution
-5. Test and refactor your code
+ 1. Clarify the problem/Ask questions.
+ 2. Take note of Inputs, Outputs and Edge cases.
+ 3. Outline/Diagram a Solution: Pseudocode.
+ 4. Code your Solution.
+ 5. Test and Refactor your Code.
+ 6. Discuss Time and Space Complexity: Big-O notation.
+
+[Whiteboarding Process Details](./whiteboarding_formula.md)
 
 ### Live-coding example:
 
