@@ -9,7 +9,7 @@
 | 2 | Recursion | [Web](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Recursion/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Recursion/lesson-swift.md)
 | 3 | Binary Search | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/binary_search/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/tree/master/binary_search/ios)
 | 4 | Bubble Sort: Intro to Sorting* | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/bubble_sort/web) / iOS
-| 5 | Merge Sort: Divide & Conquer*  | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/merge_sort/web) / iOS
+| 5 | Merge Sort: Divide & Conquer*  | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/merge_sort/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/blob/master/merge_sort/ios/README.md)
 | 6 | Quick Sort | Web / [iOS](./quicksort/ios)
 | 7 | Abstract Data Structures  | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/abstract_data_structures/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Abstract%20Data%20Structures/lesson-swift.md)
 | 8 | Linked List | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/linked_lists/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Linked%20List/lesson-swift.md)
