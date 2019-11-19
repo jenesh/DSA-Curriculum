@@ -16,7 +16,7 @@
 | 9 | Stacks | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/Stacks/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Stacks/lesson-swift.md)
 | 10 | Queues | [Web](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Queues/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Queues/lesson-swift.md)
 | 11 | Hash Tables | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/hash_tables/web) / iOS
-| 12 | Trees* | [Web](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Trees/web) / iOS
+| 12 | Trees | [Web](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Trees/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Trees/ios/README.md)
 | 13 | Graphs* | Web / iOS
 
 
