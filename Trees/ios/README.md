@@ -278,7 +278,7 @@ class TreeNode {
 ```
 Building a simple tree
 
-![treeImage](placeholder)
+![treeImage](../assets/sampleTree.png)
 
 
 ```swift
