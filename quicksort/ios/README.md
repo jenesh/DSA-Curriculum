@@ -1,12 +1,12 @@
 # Quicksort
 
 
-Resources:
+## Resources:
 
 1. [Ray Wenderlich Quicksort](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Quicksort)
 1. [Wikipedia Quicksort](https://en.wikipedia.org/wiki/Quicksort)
 
-
+## Quadradic Sorts
 
 So far, we've looked at sorts that take O(n<sup>2</sup>) time.  Those were:
 
