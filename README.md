@@ -1,5 +1,7 @@
 ## Data Structures and Algorithms Curriculum
 
+This repo is now stale.  For the most recent version of materials, visit the link [here](https://github.com/joinpursuit/Pursuit-Core-DSA)
+
 ## Topics
 
 | # | Topic | Lesson |
