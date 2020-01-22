@@ -236,8 +236,7 @@ func recursiveFibDynamicProgramming(num: Int) -> Int {
     return fibonacci
   }
 
-  guard num > 1 else {
-    fibValues[num] = num
+  guard num > 2 else {
     return 1
   }
 
