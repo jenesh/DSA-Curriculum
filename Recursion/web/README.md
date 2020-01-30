@@ -121,7 +121,7 @@ const countDownToZero = (num) => {
 Given this following loop: 
 
 ```javascript
-const countUp = (to, starting) => {
+const countUp = (starting, to) => {
   for (let i = starting; i <= to; i++) {
     console.log(i);
   }
@@ -134,12 +134,12 @@ How would you write this same thing recursively?
 <summary>SOLUTION</summary>
 
 ```javascript
-const countUp = (to, starting) => {
-  if (starting <= to) {
+const countUp = (starting, to) => {
+  if (to < starting) {
     return;
   }
-  console.log(i);
-  countUp(to, starting + 1);
+  console.log(starting);
+  countUp(starting + 1, to);
 }
 ```
 </details>

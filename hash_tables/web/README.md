@@ -24,13 +24,13 @@ Let's say you're a cashier and customers ask you what is the price of certain pr
 
 **Unordered Array**
 
-Imagine our products were stored in an unordered array.
+Imagine our products were stored in an unordered/unsorted array.
 
 ```javascript
-const products = [ { "orange": 1.25}, { "apple": 1.00}, { "banana": 1.00 } ]
+const products = [ { "orange": 1.25}, { "apple": 1.00}, { "strawberry": 2.10 }, { "banana": 1.00 }, { "blueberry": 1.96 }]
 ```
 
-You would have to create a Linear Search algorithm which searches through this unsorted list and finds the product and finally returns you the value.
+You would have to create a Linear Search algorithm which searches through this unsorted list and finds the item and finally returns you the value.
 
 Our run time would be O(n).
 
@@ -39,7 +39,7 @@ Our run time would be O(n).
 Now what if we ordered it?
 
 ```javascript
-const products = [ { "apple": 1.00}, { "banana": 1.00 }, { "orange": 1.25}  ]
+const products = [ { "apple": 1.00}, { "banana": 1.00 }, { "orange": 1.25}, { "blueberry": 1.96 }, { "strawberry": 2.10 }]
 ```
 
 We can apply Binary Search and reduce the runtime to O(log n). Which is a HUGE increase in performance. But we can actually do better.
@@ -57,6 +57,13 @@ orange
 
 banana
 => 1.00
+
+blueberry
+=> 1.96
+
+strawberry
+=> 2.10
+
 ```
 
 This friend would give you back a value for every key request that you ask. This runtime would actually be O(1).
@@ -67,9 +74,11 @@ That friend is your Hash Table.
 
 How is it a Hash Table gives back answers in O(1) time? It's because of the Hash Function. A hash function is a function where you put in a key value and you get back a number.
 
-![Hash Function](assets/hash-function-pic.bmp)
+![Hash Function](../assets/hash-function-pic.bmp)
 
 This function essentially runs in O(1) time complexity. So whenever you pass in a piece of data you always get back a number representing that data.
+
+> Let's get rid of `"strawberry"` & `"blueberry"` for simplicity's sake. Imagine we are only dealing with 3 elements from now on.
 
 Example:
 ```
@@ -139,7 +148,7 @@ There are several ways to solve for Collision Cases but for the sake of this les
 
 ### Collision: Using Chaining
 
-![Chaining Nodes](assets/chain.gif)
+![Chaining Nodes](../assets/chain.gif)
 
 There will be cases when your Hash function returns the same value for multiple different cases. We can solve this problem using Chaining. 
 
@@ -178,7 +187,7 @@ insert(key, value) {
   // Generate the bucket index using our Hash function
   var bucket = this.hash(key);
   // Create a new Node holding our key-value pair
-  var newNode = new HashNode(key, value);
+  var newNode = new Node(key, value);
   
   // 1st Case - No Nodes Exist in that Bucket
   if(!this.buckets[bucket]) {
@@ -253,7 +262,7 @@ class HashTable {
     // Generate the bucket index using our Hash function
     var bucket = this.hash(key);
     // Create a new Node holding our key-value pair
-    var newNode = new HashNode(key, value);
+    var newNode = new Node(key, value);
     
     // 1st Case - No Nodes Exist in that Bucket
     if(!this.buckets[bucket]) {
@@ -299,4 +308,15 @@ class HashTable {
 
 }
 ```
+
+## Exercises
+
+To this implementation of a `HashTable`
+
+1. Add a method `has(key)` that returns a boolean indicating whether an element with the specified key exists or not.
+2. Add a method `delete(key)` that removes and returns the element at the specified `key`.
+3. Add a method `keys()` returns an array that contains the keys for each element in the `HashTable` object. 
+4. Add a method `values()` returns an array that contains the values for each element in the `HashTable` object. 
+5. Add a method `clear()` that removes all elements from a `HashTable` object.
+6. Add a method `forEach(callback)` that executes a provided function once per each key/value pair in the `HashTable` object. The `callback` would receive the value of the given element as its argument. 
 
