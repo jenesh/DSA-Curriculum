@@ -6,6 +6,34 @@
 2. Explain what a good whiteboarding process looks like
 3. Solve whiteboarding interview questions
 
+## [Standards](https://joinpursuit.github.io/Pursuit-Core-Standards/engineering_foundations.html) Exercised
+<details>
+  <summary>
+    EF.1.a 
+  </summary>
+
+  Know how to find a plausible answer independently: Identify essential requirements that define the answer that needs to be solved, based on users, stakeholders, and constraints, single out missing information and determine the best way to find it, whether through existing resources, an online search, available libraries, etc., sort through varied information to determine what’s useful and reliable, and use those resources to learn something new, figure out a problem, and/ or locate additional helpful resources.
+
+</details>
+
+<details>
+  <summary>
+    EF.1.b 
+  </summary>
+
+  Deal effectively with dead ends, frustration: Demonstrate ability to overcome frustration effectively. When one approach doesn’t work, rather than becoming despondent or giving up, able to take a step back, regroup, and try a different way.
+
+</details>
+
+<details>
+  <summary>
+    EF.1.c 
+  </summary>
+
+  Know when, and how, to ask for help from peers/instructor once independent resources are exhausted.
+
+</details>
+
 ## 1. What is whiteboarding?
 
 The interview process typically includes the following steps:
@@ -32,28 +60,42 @@ There is a growing divide between companies that use the traditional whiteboardi
 
 ## 3. Whiteboarding process
 
-1. Ask clarifying questions
-2. Write inputs/outputs
-3. Diagram and explain a solution to the problem
-4. Code your solution
-5. Test and refactor your code
+ 1. Clarify the problem/Ask questions.
+ 2. Take note of Inputs, Outputs and Edge cases.
+ 3. Outline/Diagram a Solution: Pseudocode.
+ 4. Code your Solution.
+ 5. Test and Refactor your Code.
+ 6. Discuss Time and Space Complexity: Big-O notation.
 
-### Live-coding example:
+[Whiteboarding Process Details](./whiteboarding_formula.md)
 
-<b>Prompt</b>: Merge two sorted arrays into a single sorted array.
+## Practice & Demo
+### Instructor Demo example:
+
+Instructor demonstrate how to go through the whiteboarding process for the following question:
+
+**Question:** Merge two sorted arrays into a single sorted array.
 
 ### Fellow volunteer whiteboarding question
 
-<b>Prompt</b>: Find the second largest element in an array of numbers.
+Volunteer Fellow comes up to the board to attempt to solve the problem with the whiteboarding process:
+
+**Question**: Find the second largest element in an array of numbers.
 
 ### Pair whiteboarding questions
+Fellows pair up and work on the following question following the whiteboarding process.
 
-<b>Set One</b>
+#### Set One
 
 1. Write a program that logs the numbers from 1 to 100. But for multiples of three log "Fizz" instead of that number, and for the multiples of five log "Buzz" instead of that number. For numbers which are multiples of both three and five log "FizzBuzz" instead.
 2. Write a program that logs out a given string with all of the vowels removed.
 
-<b>Set Two</b>
-
+#### Set Two
 3. Write a program that moves all of the 0s in a given array to the end.  The relative order of all other elements should remain the same.
 4. Write a program that logs the largest product of two numbers in a given array.
+
+## Resources
+* [Walking Through a Problem - CTCI](http://www.crackingthecodinginterview.com/uploads/6/5/2/8/6528028/cracking_the_coding_skills_-_v6.pdf) [MAP/FLOWCHART]
+* [What is Whiteboarding - Codecademy](https://www.youtube.com/watch?v=XizttkvVsXI) [VIDEO]
+* [Whiteboarding Process in Depth](./whiteboarding_formula.md)
+* [Bria's Formula to whiteboarding](https://twitter.com/bria_sullivan/status/1171852539551199232)

@@ -145,6 +145,8 @@ Let's make an iterative solution first, then let's compare it to a recursive sol
 
 <details>
 <summary> Iterative factorial </summary>
+	
+```swift
 func factorial(n: Int) -> Int {
     var product = 1
     for currentNum in 1...n {
@@ -152,6 +154,7 @@ func factorial(n: Int) -> Int {
     }
     return product
 }
+```
 </details>
 
 
@@ -184,7 +187,7 @@ The [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) is made
 
 ```swift
 func recursiveFib(n: Int) -> Int {
-    guard n > 1 else { return 1 }
+    guard n > 2 else { return 1 }
     return recursiveFib(n: n - 1) + recursiveFib(n: n - 2)
 }
 ```
@@ -233,8 +236,7 @@ func recursiveFibDynamicProgramming(num: Int) -> Int {
     return fibonacci
   }
 
-  guard num > 1 else {
-    fibValues[num] = num
+  guard num > 2 else {
     return 1
   }
 

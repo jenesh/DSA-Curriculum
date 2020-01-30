@@ -1,22 +1,24 @@
 ## Data Structures and Algorithms Curriculum
 
+This repo is now stale.  For the most recent version of materials, visit the link [here](https://github.com/joinpursuit/Pursuit-Core-DSA)
+
 ## Topics
 
 | # | Topic | Lesson |
 |---| ---   | ---    |
 | 1 | Intro to Whiteboarding | [Web/iOS](https://github.com/joinpursuit/DSA-Curriculum/tree/master/intro_to_whiteboarding)
-| 2 | Big-O Notation | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Big-O%20Notation/lesson-js.md) / [iOS](https://github.com/mmosayed/DSA-Curriculum/blob/master/Big-O%20Notation/lesson-swift.md)
-| 2 | Recursion | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Recursion/lesson-js.md) / [iOS](https://github.com/mmosayed/DSA-Curriculum/blob/master/Recursion/lesson-swift.md)
-| 3 | Binary Search | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Binary%20Search/lesson-js.md) / iOS
-| 4 | Bubble Sort: Intro to Sorting* | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Sorting%20Algorithms/lesson-bubble-js.md) / iOS
-| 5 | Merge Sort: Divide & Conquer*  | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Sorting%20Algorithms/lesson-merge-js.md) / iOS
-| 6 | Quick Sort* | Web / iOS
-| 7 | Abstract Data Structures  | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Abstract%20Data%20Structures/lesson-js.md) / [iOS](https://github.com/mmosayed/DSA-Curriculum/blob/master/Abstract%20Data%20Structures/lesson-swift.md)
-| 8 | Linked List | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Linked%20List/lesson-js.md) / [iOS](https://github.com/mmosayed/DSA-Curriculum/blob/master/Linked%20List/lesson-swift.md)
-| 9 | Stacks | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Stacks/lesson-js.md) / [iOS](https://github.com/mmosayed/DSA-Curriculum/blob/master/Stacks/lesson-swift.md)
-| 10 | Queues | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Queues/lesson-js.md) / [iOS](https://github.com/mmosayed/DSA-Curriculum/blob/master/Queues/lesson-swift.md)
-| 11 | Hash Tables | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Hash%20Tables/lesson-js.md) / iOS
-| 12 | Trees* | [Web](https://github.com/mmosayed/DSA-Curriculum/blob/master/Trees/lesson-js.md) / iOS
+| 2 | Big-O Notation | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/big_o_notation/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/tree/master/big_o_notation/ios)
+| 2 | Recursion | [Web](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Recursion/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Recursion/lesson-swift.md)
+| 3 | Binary Search | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/binary_search/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/tree/master/binary_search/ios)
+| 4 | Bubble Sort: Intro to Sorting* | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/bubble_sort/web) / iOS
+| 5 | Merge Sort: Divide & Conquer*  | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/merge_sort/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/blob/master/merge_sort/ios/README.md)
+| 6 | Quick Sort | Web / [iOS](./quicksort/ios)
+| 7 | Abstract Data Structures  | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/abstract_data_structures/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Abstract%20Data%20Structures/lesson-swift.md)
+| 8 | Linked List | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/linked_lists/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Linked%20List/lesson-swift.md)
+| 9 | Stacks | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/Stacks/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Stacks/lesson-swift.md)
+| 10 | Queues | [Web](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Queues/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Queues/lesson-swift.md)
+| 11 | Hash Tables | [Web](https://github.com/joinpursuit/DSA-Curriculum/tree/master/hash_tables/web) / iOS
+| 12 | Trees | [Web](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Trees/web) / [iOS](https://github.com/joinpursuit/DSA-Curriculum/blob/master/Trees/ios/README.md)
 | 13 | Graphs* | Web / iOS
 
 
